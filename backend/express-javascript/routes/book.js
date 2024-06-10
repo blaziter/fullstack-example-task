@@ -67,5 +67,30 @@ router.patch("/:id", bookController.patchBook);
  */
 router.delete("/:id", bookController.deleteBook);
 
+/**
+ * Příklady
+ * http://localhost:3000/book - metoda GET
+ * 
+ ** využítí v js/ts: přes funkci fetch
+ * fetch("http://localhost:3000/book") (jednoduchá GET metoda)
+ * fetch("http://localhost:3000/book/", {
+ *   method: "GET",
+ * }) (jednoduchá GET metoda)
+ * 
+ * fetch("http://localhost:3000/book", {
+ *  method: "POST",
+ *  body: JSON.stringify(data),
+ * }) (POST metoda)
+ * 
+ ** využití přes axios knihovnu v js/ts
+ * axios.get("http://localhost:3000/book") metoda GET je zavolána hned při využití funkce .get()
+ * axios.post("http://localhost:3000/book", data) metoda POST je zavolána hned při využití funkce .post()
+ * axios({
+ *   method: 'post',
+ *   url: 'http://localhost:3000/book',
+ *   data: data,
+ * })
+*/
+
 // Exportuje router do modulu
 module.exports = router;

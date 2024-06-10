@@ -48,6 +48,7 @@ app.use(cors());
 app.use(express.json());
 
 // Aplikace bude používat bookRouter pro koncový bod /book. Jinak řečeno. Pokud někdo vytvoří požadavek na "IP:PORT/book", tak se tento požadavek přenese dál do modulu book.js (routes/book.js)
+/* Příklad: http://localhost:3000/book , https://mujweb.com/book */
 app.use("/book", bookRouter);
 
 // Aplikace poběží na PORTu 3000 a po zapnutí vypíše do serverové konzole náležitou hlášku

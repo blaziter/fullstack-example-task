@@ -47,4 +47,4 @@ Projekt by tě měl naučit alespoň lidlově udělat fullstack appku :D
 # Podklady
 
 - [express-typescript - Štefan Jambrich](https://github.com/stefanJambrich/huddle/tree/master/be)
-- [prace-s-mongodb-a-mongoose - Jan Till](https://github.com/honziktillu/prace-s-mongodb-a-mongoose/)
+- [express-javascript - Jan Till](https://github.com/honziktillu/prace-s-mongodb-a-mongoose/)
