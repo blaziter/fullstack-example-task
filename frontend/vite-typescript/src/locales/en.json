@@ -1,0 +1,13 @@
+{
+    "navbar": {
+        "index": "Home",
+        "about": "About us"
+    },
+    "index": {
+        "title": "Hello World!"
+    },
+    "footer": {
+        "contact": "Contact",
+        "privacy": "Privacy policy"
+    }
+}

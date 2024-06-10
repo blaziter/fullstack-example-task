@@ -1,0 +1,13 @@
+{
+    "navbar": {
+        "index": "Domů",
+        "about": "O nás"
+    },
+    "index": {
+        "title": "Ahoj světe!"
+    },
+    "footer": {
+        "contact": "Kontakt",
+        "privacy": "Ochrana osobních údajů"
+    }
+}
