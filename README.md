@@ -8,11 +8,11 @@ Projekt by tě měl naučit alespoň lidlově udělat fullstack appku :D
 
 | Frontend | Backend | Database |
 | ------------- | ------------- | ------------- |
-| Vite | ExpressJS | MongoDB |
-| Nextjs | NestJS | MySQL |
-| Remix | Spring Boot (+ Hibernate) | PostgreSQL |
-| | Serverless | |
-| | .NET | |
+| [Vite](https://vitejs.dev/) | [ExpressJS](https://expressjs.com/) | [MongoDB](https://www.mongodb.com/) |
+| [Nextjs](https://nextjs.org/) | [NestJS](https://nestjs.com/) | [MySQL](https://www.mysql.com/) |
+| [Remix](https://remix.run/) | [Spring Boot](https://spring.io/projects/spring-boot) (+ [Hibernate](https://hibernate.org/)) | [PostgreSQL](https://www.postgresql.org/) |
+| [.NET](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) | [Serverless](https://www.serverless.com/) | |
+| | [.NET](https://dotnet.microsoft.com/en-us/apps/aspnet/apis) | |
 
 (doporučen .NET nebo Spring Boot pro znalosti i v jiném jazyce ale nodejs technologie nevadí)
 
