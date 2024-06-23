@@ -1,0 +1,8 @@
+{
+    "eslint.workingDirectories": [
+        { "directory": "backend/express-javascript", "changeProcessCWD": true },
+        { "directory": "backend/express-typescript", "changeProcessCWD": true },
+        { "directory": "backend/nest-javascript", "changeProcessCWD": true },
+        { "directory": "backend/nest-typescript", "changeProcessCWD": true },
+    ]
+}
