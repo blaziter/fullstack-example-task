@@ -5,10 +5,10 @@ import { UserLoginBodyDto, UserLoginResponseDto } from './auth.dto';
 
 @Controller('api/auth')
 export class AuthController {
-    constructor(private authService: AuthService) {}
+  constructor(private authService: AuthService) {}
 
-    @Post('login')
-    signIn(@Body() body: UserLoginBodyDto): Promise<UserLoginResponseDto>{
-        return this.authService.signIn(body.username, body.password);
-    }
+  @Post('login')
+  signIn(@Body() body: UserLoginBodyDto): Promise<UserLoginResponseDto> {
+    return this.authService.signIn(body.username, body.password);
+  }
 }

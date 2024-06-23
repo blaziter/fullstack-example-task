@@ -9,10 +9,13 @@ export class AuthService {
   constructor(
     @InjectPinoLogger(AuthService.name)
     private readonly logger: PinoLogger,
-    private usersService: UsersService,
-) {}
+    private usersService: UsersService
+  ) {}
 
-  async signIn(username: string, password: string): Promise<UserLoginResponseDto> {
+  async signIn(
+    username: string,
+    password: string
+  ): Promise<UserLoginResponseDto> {
     const user = await this.usersService.findOne(username);
 
     if (user.password !== password || !user) {
@@ -21,8 +24,8 @@ export class AuthService {
     }
 
     return {
-        username: user.username,
-        roles: user.roles,
+      username: user.username,
+      roles: user.roles,
     };
   }
 }

@@ -1,7 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { UUID } from 'crypto';
 
-import { FindAllUsersResponseDto, FindUserByIdResponseDto, User } from './user.dto';
+import {
+  FindAllUsersResponseDto,
+  FindUserByIdResponseDto,
+  User,
+} from './user.dto';
 
 @Injectable()
 export class UsersService {
@@ -22,7 +26,7 @@ export class UsersService {
 
   async findAll(): Promise<FindAllUsersResponseDto> {
     return this.users.map(({ password, ...user }) => user);
-   }
+  }
 
   async findOne(username: string): Promise<User | undefined> {
     return this.users.find((user) => user.username === username);
